@@ -1,0 +1,66 @@
+/*Reset css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth !important;
+}
+.hide{
+    overflow: hidden;
+}
+.text-28{
+    font-size: 28px;
+}
+
+/*Main */
+#banner{
+    background: linear-gradient(rgba(23, 80, 183, 1), rgba(2, 44, 120, 1));
+
+}
+.banner-text p{
+    font-family: 'Roboto', sans-serif;
+}
+.banner-button{
+    width: 32%;
+}
+
+/*Feature */
+.font-roboto{
+    font-family: 'Roboto', sans-serif;
+}
+.feature-gradient-3{
+    max-width: 1010px;
+}
+.feature5-height{
+    min-height: 726px;
+}
+/*LIST*/
+.list1-head{
+    padding-left:26% ;
+    padding-right:26% ;
+}
+.list1-pic{
+    max-width: 264px !important;
+}
+.mi-width-list3{
+    min-height: 630px;
+}
+.list3-intro{
+    max-width:362px;
+}
+.list3-last-pic{
+    right:-178px
+}
+
+
+
+/* Responsive */
+@media (max-width: 46.1875em) {
+    .list1-head{
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+}
